@@ -1,0 +1,83 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	background-color: black;
+}
+
+.boxdev {
+	border: 10px solid #1f1f1f;
+	color: white;
+	background-color: #1f1f1f;
+}
+
+.bandeau {
+	width: 100%;
+}
+
+.title {
+	margin: 8% 0%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.texte {
+	font-size: 21px;
+	margin: 0% 2%;
+	margin-bottom: 10px;
+}
+
+.imgmain {
+	width: 95%;
+	align-items: center;
+	margin: 20px 7px;
+}
+
+.imgmain2 {
+	width: 95%;
+	align-items: center;
+	margin: -2px;
+	margin-left: 6px;
+}
+
+.imgmain3 {
+	width: 95%;
+	align-items: center;
+	margin: -2px;
+	margin-left: 6px;
+}
+
+footer {
+	text-align: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 1024px) {
+	.texte {
+     
+	}
+	.imgmain {
+	    /* margin-top: -500px;
+        margin-left: 800px; */
+/* Cheat code Aziza */
+		width: 50%;
+	}
+	.imgmain2 {
+		float: right;
+		width: 49%;
+		height: 110%;
+	}
+	.imgmain3 {
+		width: 49%;
+	}
+	div {
+		display: flex;
+        flex-direction: column;
+	}
+
+}
